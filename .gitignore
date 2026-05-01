@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+aimosvenv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime data
+db/*.sqlite
+data/uploads/
+data/processed/
+data/previews/
+data/metadata/
+data/operations/
+models/hf_cache/
+
+# Environment
+.env
+.DS_Store
+
+# Logs
+logs/

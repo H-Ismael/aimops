@@ -1,0 +1,12 @@
+models:
+  - id: vit_default
+    provider: huggingface
+    task: image-classification
+    model_name: google/vit-base-patch16-224
+    enabled: true
+
+  - id: resnet_default
+    provider: huggingface
+    task: image-classification
+    model_name: microsoft/resnet-50
+    enabled: true
